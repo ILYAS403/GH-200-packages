@@ -22,5 +22,5 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build and push Docker image
         run: |
-          docker build . --tag ghcr.io/ilyas403/gh-200-packages/stackoverflown:main
-          docker push ghcr.io/ilyas403/gh-200-packages/stackoverflown:main
+          docker build . --tag ghcr.io/ilyas403/stackoverflown:main
+          docker push ghcr.io/ilyas403/stackoverflown:main
